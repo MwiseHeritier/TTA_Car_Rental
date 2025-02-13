@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     <link rel="stylesheet" href="./style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,7 +11,7 @@
     <section id="home-section">
       <div class="header">
         <div class="header-content header-content-1">
-            <svg width="38" height="15" viewBox="0 0 41 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg width="38" height="14" viewBox="0 0 41 15" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <line x1="1.5" y1="1.5" x2="39.5" y2="1.5" stroke="white" stroke-width="3" stroke-linecap="round"/>
                 <line x1="1.5" y1="13.5" x2="39.5" y2="13.5" stroke="white" stroke-width="3" stroke-linecap="round"/>
             </svg>
@@ -43,7 +44,11 @@
             <div class="form">
                 <div class="input">
                     <p>Pick-up Location</p>
-                    <input type="text" placeholder="search a Location">
+                   <div class="input-container">
+                        <input type="text" placeholder="search a Location">
+                        <i class="fa-solid fa-location-dot"></i>
+                    </div>
+                   
                 </div>
 
                 <div class="input">
@@ -53,20 +58,24 @@
 
                 <div class="input">
                     <p>Drop-off Location</p>
-                    <input type="text" placeholder="search a Location">
+                    <div class="input-container">
+                       <input type="text" placeholder="search a Location">
+                       <i class="fa-solid fa-location-dot"></i>
+                    </div>
+                    
+                   
+                    
                 </div>
 
                 <div class="input">
                     <p>Drop-off Date</p>
-                    <input type="text" placeholder="search a Location">
+                    <input type="date" >
                 </div>
 
                 <div class="input">
                     <button>Find a vehicle
-                        <svg width="14" height="12" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M1.75 7H12.25M12.25 7L7 1.75M12.25 7L7 12.25" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg>
-                            
+                        
+                        <i class="fa-solid fa-arrow-right"></i>
                     </button>
 
                 </div>
