@@ -177,6 +177,17 @@
     background-color: black;
     color: white;
 }
+.collection-section-header h1{
+    margin-top: 15px ;
+}
+.collection-section-header p{
+    margin: 15px 0px;
+    
+}
+.collection-section-header p span{
+    display: flex;
+    justify-content: center;
+}
 .collection-grid{
     display: grid;
     grid-template-columns: auto auto auto;
@@ -262,5 +273,68 @@
  .collection-section-header h1,
 .how-section-header h1{
     font-family: sans-serif;
+    display: flex;
+    justify-content: center;
 }
 
+
+
+.how-section-header p span{
+    display: flex;
+    justify-content: center;
+}
+.how-container{
+    display: flex;
+    position: relative;
+}
+.how-container .how-content-empty{
+    width: 30%;
+
+}
+.how-container .car-img{
+    width: 70%;
+    background-color: #f5f5f5;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+.how-content-steps{
+    position: absolute;
+    width: 45%;
+} 
+.step-container{
+    display: flex;
+    background-color: white;
+    border: 2px solid #f5f5f5;
+    padding: 15px 5px;
+    margin: 30px 3px;
+    border-radius: 7px;
+
+
+}
+.step-icon-container{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.step-icon{
+    background-color: #f5f5f5;
+    padding: 20px 10px;
+    border-radius: 10px;
+}
+
+
+.step-content p{
+    text-align: justify;
+    padding-right: 25px;
+    padding-left: 5px;
+}
+.step-content h3{
+    padding-bottom: 10px;
+    font-family: sans-serif;
+    padding-left: 4px;
+}
