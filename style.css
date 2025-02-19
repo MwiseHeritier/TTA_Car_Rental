@@ -97,10 +97,13 @@
    
 }
 #brand-section,
-#body-type-section #collection-section,
+#body-type-section, 
+#collection-section,
 #how-section,
+#service-section,
  .collection-section-header-container,
- .how-section-header-container{
+ .how-section-header-container,
+ .service-section-header-container{
     display: flex;
     justify-content: center;
     margin: 40px 0px;
@@ -108,7 +111,8 @@
 .brand-section-container
 ,.body-type-section-container, 
 .collection-section-container,
-.how-section-container{
+.how-section-container,
+.service-section-container{
     width: 90vw;
 }
 .brand-section-header,.body-type-section-header{
@@ -153,7 +157,8 @@
     margin-bottom: unset;
 }
 .collection-section-header
-.how-section-header{
+.how-section-header,
+.service-section-header{
     width: 60%;
     text-align: center;
 
@@ -180,8 +185,10 @@
 .collection-section-header h1{
     margin-top: 15px ;
 }
-.collection-section-header p{
-    margin: 15px 0px;
+.collection-section-header p,
+.how-section-header p,
+.service-section-header p{
+    padding: 15px 0px;
     
 }
 .collection-section-header p span{
@@ -270,8 +277,13 @@
     border: none;
     border-radius: 30px;
 }
+#how-section{
+    padding-bottom: 40px;
+}
+
  .collection-section-header h1,
-.how-section-header h1{
+.how-section-header h1,
+.service-section-header h1{
     font-family: sans-serif;
     display: flex;
     justify-content: center;
@@ -300,7 +312,7 @@
     align-items: center;
     border-radius: 15px;
 }
-.how-content-steps{
+  .how-content-steps{
     position: absolute;
     width: 45%;
 } 
@@ -337,4 +349,10 @@
     padding-bottom: 10px;
     font-family: sans-serif;
     padding-left: 4px;
+}
+#service-section{
+    background-color: black;
+    color: white;
+    padding: 40px 0px;
+    margin-bottom: unset;
 }
