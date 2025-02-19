@@ -5,6 +5,9 @@
     padding: 0;
     margin: 0;
 }
+a{
+    text-decoration: none;
+}
 
 .home-container{
     height: 100vh;
@@ -102,6 +105,7 @@
 #how-section,
 #service-section,
 #comment-section,
+#download-section,
  .collection-section-header-container,
  .how-section-header-container,
  .service-section-header-container{
@@ -114,7 +118,8 @@
 .collection-section-container,
 .how-section-container,
 .service-section-container,
-.comment-section-container{
+.comment-section-container,
+.download-section-container{
     width: 90vw;
 }
 .brand-section-header,.body-type-section-header,.comment-section-header{
@@ -417,6 +422,57 @@
 }
 .comment-owner-container-content h4{
     padding: 10px 0px;
+}
+
+#download-section{
+     background-color: black;
+     color: white;
+     margin: unset;
+     padding: 20px 0px;
+}
+.download-section-container{
+    display: flex;
+}
+.download-section-container .download-content{
+    width: 50%;
+    padding-left: 40px;
+}
+.download-section-container > .download-description h2{
+    padding: 10px 0px;
+}
+.download-section-container .download-description p{
+    font-size: 16px;
+    padding: 10px 0px;
+    font-weight: 100;
+}
+.download-section-container .download-button-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.download-button{
+    display: flex;
+    background-color: white;
+    border-radius: 30px;
+    margin: 0px 10px;
+}
+.download-button-icon{
+    padding: 10px 5px 10px 20px;
+ 
+}
+.download-button-text{
+    color: black;
+    padding-right: 15px;
+    padding-top: 7px;
+}
+.download-button-text p{
+    font-size: 12px;
+}
+.download-button-text a{
+    color: black;
+}
+.download-button-text h3{
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 
