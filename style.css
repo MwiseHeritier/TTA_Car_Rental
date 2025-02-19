@@ -101,6 +101,7 @@
 #collection-section,
 #how-section,
 #service-section,
+#comment-section,
  .collection-section-header-container,
  .how-section-header-container,
  .service-section-header-container{
@@ -108,18 +109,19 @@
     justify-content: center;
     margin: 40px 0px;
 }
-.brand-section-container
-,.body-type-section-container, 
+.brand-section-container,
+.body-type-section-container, 
 .collection-section-container,
 .how-section-container,
-.service-section-container{
+.service-section-container,
+.comment-section-container{
     width: 90vw;
 }
-.brand-section-header,.body-type-section-header{
+.brand-section-header,.body-type-section-header,.comment-section-header{
     display: flex;
     
 }
-.brand-section-button,.body-type-section-button{
+.brand-section-button,.body-type-section-button,.comment-section-buttons{
     width: 90%;
     display: flex;
     justify-content: end;
@@ -375,6 +377,46 @@
 }
 .service-item .service-content p{
     padding: 10px;
+}
+
+.comment-section-buttons{
+    width: 75%;
+}
+.comment-section-buttons button{
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    margin: 5px 5px;
+    cursor: pointer;
+}
+.comment-section-buttons .comment-section-button-1{
+    background-color: white;
+    color: gray;
+    border: 1px solid gray;
+    
+}
+.comment-section-buttons .comment-section-button-2{
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+}
+.comment-section-content {
+    width: 90%;
+    margin: 10px 0px;
+}
+.comment-section-content p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.comment-owner-container{
+    display: flex;
+    margin: 30px 0px;
+}
+.comment-owner-container-content{
+    margin-left: 15px;
+    padding-top: 10px;
+}
+.comment-owner-container-content h4{
+    padding: 10px 0px;
 }
 
 
