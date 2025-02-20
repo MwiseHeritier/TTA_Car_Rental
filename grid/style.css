@@ -13,3 +13,6 @@
     
 
 }
+.item-1{
+    grid-column: 1/span 5;
+}
