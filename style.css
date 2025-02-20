@@ -200,9 +200,8 @@ footer,
     padding: 15px 0px;
     
 }
-.collection-section-header p span{
-    display: flex;
-    justify-content: center;
+.collection-section-header p {
+    padding: 15px;
 }
 .collection-grid{
     display: grid;
