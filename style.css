@@ -319,6 +319,7 @@ footer,
     justify-content: center;
     align-items: center;
     border-radius: 15px;
+    height: 450px;
 }
   .how-content-steps{
     position: absolute;
